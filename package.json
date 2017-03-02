@@ -1,0 +1,16 @@
+{
+  "name": "@jacobmischka/papers",
+  "version": "1.0.0",
+  "description": "Create yourself a LICENSE",
+  "main": "index.js",
+  "repository": "https://github.com/jacobmischka/papers.git",
+  "author": "Jacob Mischka <jacob@mischka.me>",
+  "license": "MIT",
+  "bin": {
+    "papers": "index.js"
+  },
+  "dependencies": {
+    "@jacobmischka/choosealicense.com": "^1.1.2",
+    "commander": "^2.9.0"
+  }
+}
