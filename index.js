@@ -63,7 +63,7 @@ if(missingArgs.length > 0){
 let license = getLicense(licenseNameOrId, name, year);
 
 if(license){
-	fs.writeFileSync(path.join(__dirname, 'LICENSE'), license);
+	fs.writeFileSync(path.join(process.cwd(), 'LICENSE'), license);
 	console.log('LICENSE written successfully!');
 }
 else {
