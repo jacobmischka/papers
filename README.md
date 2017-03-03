@@ -23,6 +23,14 @@ If license or author not given, attempts to read them from `package.json` in cur
 If author still not found, attempts to read it from local git config, then global git config.
 Year defaults to current year.
 
+
+
+If you want to specify an argument without specifying a previous argument, you can just enter an empty string for arguments you want to be read from package.json or your git config.
+
+```shell
+$ papers ISC '' 2016
+```
+
 Inspired by [captainsafia's][captainsafia] great idea in [captainsafia/legit][legit].
 
 [captainsafia]: https://github.com/captainsafia
