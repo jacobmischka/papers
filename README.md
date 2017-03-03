@@ -6,6 +6,8 @@ Create yourself a LICENSE.
 npm install -g @jacobmischka/papers
 ```
 
+## Usage
+
 ```shell
 $ papers -h
 
